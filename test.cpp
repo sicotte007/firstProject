@@ -11,6 +11,8 @@ int main()
 	entree.open("nombre.txt"); //ouverture du fichier
 	ofstream sortie("sortie.txt"); //variable ofstream et ouverture du fichier
 
+	//hello JF 
+	//sdfsdfgsdgsdgsdg
 	if (!entree) //ou if(!entree.good()) ou if(entree.fail())
 	{
 		sortie << "Erreur, le fichier nombre.txt n'a pas pu etre ouvert ou n'existe pas";
