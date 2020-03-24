@@ -20,6 +20,7 @@ int main()
 		exit(0);
 	}
 
+    //commentaire de merde
 	while (!entree.eof()) { //tant que le fichier n’est pas la fin
 		entree >> nb; //lecture dans le fichier
 
